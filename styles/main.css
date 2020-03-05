@@ -95,8 +95,8 @@ h3 {
   transition: 1s; }
 
 .card__img:hover {
-  -webkit-transform: scale(1.25);
-          transform: scale(1.25);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
   outline: 3px solid #f3f3f3;
   cursor: pointer; }
 
