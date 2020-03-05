@@ -54,6 +54,7 @@ h3 {
   color: #000;
   display: inline-block;
   line-height: 60px;
+  transition: 0.5s;
 
   &:hover {
     color: $main-color;
@@ -83,24 +84,29 @@ h3 {
   justify-content: center;
 }
 
-.wrap-card {
-  background: #fff;
-  border: 1px solid #f3f3f3;
-  box-sizing: border-box;
-  border-radius: 5px;
-  max-width: 200px;
+.wrap-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 27px;
 }
 
 .card {
+  background: #fff;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  max-width: 200px;
+  padding: 20px;
 
   &__img {
     width: 160px;
-    height: 134px;
-    margin: 30px 20px 45px;
+    padding: 18px 0;
+    transition: 1s;
   }
 
-  &__container {
-    margin: 0 15px 15px;
+  &__img:hover {
+    transform: scale(1.2);
+    outline: 3px solid #f3f3f3;
+    cursor: pointer;
   }
 
   &__title {
@@ -153,7 +159,6 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 170px;
     height: 39px;
     font-weight: bold;
     font-size: 14px;
@@ -163,6 +168,7 @@ h3 {
     background: $main-color;
     border-radius: 5px;
     color: #fff;
+    transition: 1s;
 
     &:hover {
       background: #fff;
