@@ -81,103 +81,97 @@ h3 {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.wrap-card {
-  background: #fff;
-  border: 1px solid #f3f3f3;
-  border-radius: 5px;
-  max-width: 200px; }
-
-.card__img {
-  width: 160px;
-  height: 134px;
-  margin: 30px 20px 45px;
-  -webkit-transition: 1s;
-  transition: 1s; }
-
-.card__img:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-  outline: 3px solid #f3f3f3;
-  cursor: pointer; }
-
-.card__container {
-  margin: 0 15px 15px; }
-
-.card__title {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 15px;
-  margin-bottom: 6px; }
-
-.card__cod {
-  margin-bottom: 15px; }
-
-.card__assessment {
+.wrap-img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-bottom: 14px; }
-
-.card__assessment-rating {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-
-.card__assessment-rating_star {
-  margin-right: 4px;
-  width: 15px;
-  height: 15px;
-  background-image: url(../images/star-active.svg);
-  background-repeat: no-repeat; }
-
-.card__assessment-rating_star:nth-last-child(1) {
-  background-image: url(../images/star.svg); }
-
-.card__price {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 20px; }
-
-.card__price-sum {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 19px; }
-
-.card__button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 170px;
-  height: 39px;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  text-transform: uppercase;
-  text-decoration: none;
-  background: #00acdc;
+  margin-bottom: 27px; }
+
+.card {
+  background: #fff;
+  border: 1px solid #f3f3f3;
   border-radius: 5px;
-  color: #fff;
-  -webkit-transition: 1s;
-  transition: 1s; }
-  .card__button:hover {
-    background: #fff;
-    border: 1px solid #00acdc;
-    color: #00acdc; }
+  max-width: 200px;
+  padding: 20px; }
+  .card__img {
+    width: 160px;
+    padding: 18px 0;
+    -webkit-transition: 1s;
+    transition: 1s; }
+  .card__img:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    outline: 3px solid #f3f3f3;
+    cursor: pointer; }
+  .card__title {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 6px; }
+  .card__cod {
+    margin-bottom: 15px; }
+  .card__assessment {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 14px; }
+  .card__assessment-rating {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .card__assessment-rating_star {
+    margin-right: 4px;
+    width: 15px;
+    height: 15px;
+    background-image: url(../images/star-active.svg);
+    background-repeat: no-repeat; }
+  .card__assessment-rating_star:nth-last-child(1) {
+    background-image: url(../images/star.svg); }
+  .card__price {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 20px; }
+  .card__price-sum {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px; }
+  .card__button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 39px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #00acdc;
+    border-radius: 5px;
+    color: #fff;
+    -webkit-transition: 1s;
+    transition: 1s; }
+    .card__button:hover {
+      background: #fff;
+      border: 1px solid #00acdc;
+      color: #00acdc; }
 
 /*# sourceMappingURL=main.css.map */
