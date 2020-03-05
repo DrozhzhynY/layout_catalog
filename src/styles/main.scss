@@ -54,6 +54,7 @@ h3 {
   color: #000;
   display: inline-block;
   line-height: 60px;
+  transition: 0.5s;
 
   &:hover {
     color: $main-color;
@@ -86,17 +87,24 @@ h3 {
 .wrap-card {
   background: #fff;
   border: 1px solid #f3f3f3;
-  box-sizing: border-box;
   border-radius: 5px;
   max-width: 200px;
 }
 
 .card {
-
   &__img {
     width: 160px;
     height: 134px;
     margin: 30px 20px 45px;
+    transition: 1s;
+    padding: 3px;
+  }
+
+  &__img:hover {
+    transform: scale(1.25);
+    border: 3px solid #f3f3f3;
+    border-radius: 5px;
+    cursor: pointer;
   }
 
   &__container {
@@ -163,6 +171,7 @@ h3 {
     background: $main-color;
     border-radius: 5px;
     color: #fff;
+    transition: 1s;
 
     &:hover {
       background: #fff;
