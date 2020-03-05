@@ -92,8 +92,7 @@ h3 {
   height: 134px;
   margin: 30px 20px 45px;
   -webkit-transition: 1s;
-  transition: 1s;
-  padding: 3px; }
+  transition: 1s; }
 
 .card__img:hover {
   -webkit-transform: scale(1.25);
