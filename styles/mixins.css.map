@@ -1,0 +1,1 @@
+{"version":3,"sources":["mixins.scss"],"names":[],"mappings":"AAAA;EACE,kBAAkB;EAClB,mBAAmB;EACnB,UAAU;EACV,WAAW;EACX,YAAY,EAAA","file":"mixins.css","sourcesContent":[".visually-hidden {\n  position: absolute;\n  clip: rect(0 0 0 0);\n  width: 1px;\n  height: 1px;\n  margin: -1px;\n}\n\n// this file was created for practice\n"]}
